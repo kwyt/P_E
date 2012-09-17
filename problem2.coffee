@@ -19,5 +19,3 @@ fib = ->
     b = a + c
     r += b  if b % 2 is 0 and b < m
     console.log r
-
-fib()
