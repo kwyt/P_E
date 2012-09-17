@@ -3,11 +3,11 @@
 600851475143 の素因数のうち最大のものを求めよ。
 ###
 
-num = 600851475143
+f = 600851475143
 i = 1
-while i <= num
-  if num % i is 0
+while i <= f
+  if f % i is 0
     j = i
-    num = num / i
+    f /= i
   i++
 console.log j
