@@ -25,7 +25,7 @@ s2 = ->
 
   while i <= 100
     if i is 100
-      a = test()
+      a = s1()
       c = b * b
       ans = c - a
       console.log ans
