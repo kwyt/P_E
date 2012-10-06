@@ -32,5 +32,5 @@ N = "731671765313306249192251196744265747423553491949349698352031277450632623957
     s = parseInt(N[i].toString()) * parseInt(N[i + 1].toString()) * parseInt(N[i + 2].toString()) * parseInt(N[i + 3].toString()) * parseInt(N[i + 4].toString())
     r = s  if s > r
     i++
-  console.log r.toString()
+  console.log r()
 )()
